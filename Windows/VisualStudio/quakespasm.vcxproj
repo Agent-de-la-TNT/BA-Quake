@@ -114,7 +114,7 @@
     <PostBuildEvent>
       <Command>copy "$(SolutionDir)\..\codecs\x86\*.dll" "$(TargetDir)"
 copy "$(SolutionDir)\..\SDL\lib\*.dll" "$(TargetDir)"
-</Command>
+copy "$(TargetDir)\$(ProjectName).exe" "$(SolutionDir)\..\..\FQBuild\"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

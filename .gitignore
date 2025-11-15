@@ -1,0 +1,5 @@
+FQBuild
+*.vcxproj.user
+*.opensdf
+*.sdf
+*.obj

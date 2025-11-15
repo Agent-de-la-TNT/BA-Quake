@@ -1,0 +1,296 @@
+﻿Build started 09/11/2025 01:51:03.
+     1>Project "D:\GitHub\BA-Quake\Windows\VisualStudio\quakespasm.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Build-quakespasm\x86\Debug\quakespasm.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Build-quakespasm\x86\Debug\quakespasm.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\SDL\include /I..\codecs\include /I..\misc\include /I..\..\Quake /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D USE_CODEC_MP3 /D USE_CODEC_VORBIS /D USE_CODEC_WAVE /D USE_CODEC_FLAC /D USE_CODEC_OPUS /D USE_CODEC_XMP /D USE_CODEC_UMX /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Build-quakespasm\x86\Debug\\" /Fd"Build-quakespasm\x86\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\Quake\bgmusic.c ..\..\Quake\cd_sdl.c ..\..\Quake\cfgfile.c ..\..\Quake\chase.c ..\..\Quake\cl_demo.c ..\..\Quake\cl_input.c ..\..\Quake\cl_main.c ..\..\Quake\cl_parse.c ..\..\Quake\cl_tent.c ..\..\Quake\cmd.c ..\..\Quake\common.c ..\..\Quake\console.c ..\..\Quake\crc.c ..\..\Quake\cvar.c ..\..\Quake\gl_draw.c ..\..\Quake\gl_fog.c ..\..\Quake\gl_mesh.c ..\..\Quake\gl_model.c ..\..\Quake\gl_refrag.c ..\..\Quake\gl_rlight.c ..\..\Quake\gl_rmain.c ..\..\Quake\gl_rmisc.c ..\..\Quake\gl_screen.c ..\..\Quake\gl_sky.c ..\..\Quake\gl_texmgr.c ..\..\Quake\gl_vidsdl.c ..\..\Quake\gl_warp.c ..\..\Quake\host.c ..\..\Quake\host_cmd.c ..\..\Quake\image.c ..\..\Quake\in_sdl.c ..\..\Quake\keys.c ..\..\Quake\main_sdl.c ..\..\Quake\mathlib.c ..\..\Quake\menu.c ..\..\Quake\miniz.c ..\..\Quake\net_dgrm.c ..\..\Quake\net_loop.c ..\..\Quake\net_main.c ..\..\Quake\net_win.c ..\..\Quake\net_wins.c ..\..\Quake\net_wipx.c ..\..\Quake\pl_win.c ..\..\Quake\pr_cmds.c ..\..\Quake\pr_edict.c ..\..\Quake\pr_exec.c ..\..\Quake\r_alias.c ..\..\Quake\r_brush.c ..\..\Quake\r_part.c ..\..\Quake\r_sprite.c ..\..\Quake\r_world.c ..\..\Quake\sbar.c ..\..\Quake\snd_codec.c ..\..\Quake\snd_dma.c ..\..\Quake\snd_flac.c ..\..\Quake\snd_mem.c ..\..\Quake\snd_mikmod.c ..\..\Quake\snd_mix.c ..\..\Quake\snd_modplug.c ..\..\Quake\snd_mp3.c ..\..\Quake\snd_mp3tag.c ..\..\Quake\snd_opus.c ..\..\Quake\snd_sdl.c ..\..\Quake\snd_umx.c ..\..\Quake\snd_vorbis.c ..\..\Quake\snd_wave.c ..\..\Quake\snd_xmp.c ..\..\Quake\strlcat.c ..\..\Quake\strlcpy.c ..\..\Quake\sv_main.c ..\..\Quake\sv_move.c ..\..\Quake\sv_phys.c ..\..\Quake\sv_user.c ..\..\Quake\sys_sdl_win.c ..\..\Quake\view.c ..\..\Quake\wad.c ..\..\Quake\world.c ..\..\Quake\zone.c ..\SDL\main\SDL_win32_main.c
+         SDL_win32_main.c
+         zone.c
+         world.c
+         wad.c
+         view.c
+         sys_sdl_win.c
+         sv_user.c
+         sv_phys.c
+         sv_move.c
+         sv_main.c
+         strlcpy.c
+         strlcat.c
+         snd_xmp.c
+         snd_wave.c
+         snd_vorbis.c
+         snd_umx.c
+         snd_sdl.c
+         snd_opus.c
+         snd_mp3tag.c
+         snd_mp3.c
+         Generating Code...
+         Compiling...
+         snd_modplug.c
+         snd_mix.c
+         snd_mikmod.c
+         snd_mem.c
+         snd_flac.c
+         snd_dma.c
+         snd_codec.c
+         sbar.c
+         r_world.c
+         r_sprite.c
+         r_part.c
+         r_brush.c
+         r_alias.c
+         pr_exec.c
+         pr_edict.c
+         pr_cmds.c
+         pl_win.c
+         net_wipx.c
+         net_wins.c
+         net_win.c
+         Generating Code...
+         Compiling...
+         net_main.c
+         net_loop.c
+         net_dgrm.c
+         miniz.c
+         menu.c
+         mathlib.c
+         main_sdl.c
+         keys.c
+         in_sdl.c
+         image.c
+         host_cmd.c
+         host.c
+         gl_warp.c
+         gl_vidsdl.c
+         gl_texmgr.c
+         gl_sky.c
+         gl_screen.c
+         gl_rmisc.c
+         gl_rmain.c
+         gl_rlight.c
+     1>d:\github\ba-quake\quake\gl_rlight.c(200): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\github\ba-quake\quake\gl_rlight.c(318): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+         Compiling...
+         gl_refrag.c
+         gl_model.c
+         gl_mesh.c
+         gl_fog.c
+         gl_draw.c
+         cvar.c
+         crc.c
+         console.c
+         common.c
+         cmd.c
+         cl_tent.c
+         cl_parse.c
+         cl_main.c
+         cl_input.c
+         cl_demo.c
+         chase.c
+         cfgfile.c
+         cd_sdl.c
+         bgmusic.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Build-quakespasm\x86\Debug\QuakeSpasm.res" ..\QuakeSpasm.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Build-quakespasm\x86\Debug\quakespasm.exe.embed.manifest.res" Build-quakespasm\x86\Debug\quakespasm_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\BA-Quake\Windows\VisualStudio\Build-quakespasm\x86\Debug\quakespasm.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\codecs\x86 /LIBPATH:..\SDL\lib libvorbisfile.lib libvorbis.lib libopusfile.lib libopus.lib libFLAC.lib libogg.lib libmad.lib libxmp.lib wsock32.lib opengl32.lib winmm.lib SDL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:msvcrt.lib /MANIFEST /ManifestFile:"Build-quakespasm\x86\Debug\quakespasm.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\GitHub\BA-Quake\Windows\VisualStudio\Build-quakespasm\x86\Debug\quakespasm.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\BA-Quake\Windows\VisualStudio\Build-quakespasm\x86\Debug\quakespasm.lib" /MACHINE:X86 "Build-quakespasm\x86\Debug\QuakeSpasm.res"
+         "Build-quakespasm\x86\Debug\quakespasm.exe.embed.manifest.res"
+         "Build-quakespasm\x86\Debug\bgmusic.obj"
+         "Build-quakespasm\x86\Debug\cd_sdl.obj"
+         "Build-quakespasm\x86\Debug\cfgfile.obj"
+         "Build-quakespasm\x86\Debug\chase.obj"
+         "Build-quakespasm\x86\Debug\cl_demo.obj"
+         "Build-quakespasm\x86\Debug\cl_input.obj"
+         "Build-quakespasm\x86\Debug\cl_main.obj"
+         "Build-quakespasm\x86\Debug\cl_parse.obj"
+         "Build-quakespasm\x86\Debug\cl_tent.obj"
+         "Build-quakespasm\x86\Debug\cmd.obj"
+         "Build-quakespasm\x86\Debug\common.obj"
+         "Build-quakespasm\x86\Debug\console.obj"
+         "Build-quakespasm\x86\Debug\crc.obj"
+         "Build-quakespasm\x86\Debug\cvar.obj"
+         "Build-quakespasm\x86\Debug\gl_draw.obj"
+         "Build-quakespasm\x86\Debug\gl_fog.obj"
+         "Build-quakespasm\x86\Debug\gl_mesh.obj"
+         "Build-quakespasm\x86\Debug\gl_model.obj"
+         "Build-quakespasm\x86\Debug\gl_refrag.obj"
+         "Build-quakespasm\x86\Debug\gl_rlight.obj"
+         "Build-quakespasm\x86\Debug\gl_rmain.obj"
+         "Build-quakespasm\x86\Debug\gl_rmisc.obj"
+         "Build-quakespasm\x86\Debug\gl_screen.obj"
+         "Build-quakespasm\x86\Debug\gl_sky.obj"
+         "Build-quakespasm\x86\Debug\gl_texmgr.obj"
+         "Build-quakespasm\x86\Debug\gl_vidsdl.obj"
+         "Build-quakespasm\x86\Debug\gl_warp.obj"
+         "Build-quakespasm\x86\Debug\host.obj"
+         "Build-quakespasm\x86\Debug\host_cmd.obj"
+         "Build-quakespasm\x86\Debug\image.obj"
+         "Build-quakespasm\x86\Debug\in_sdl.obj"
+         "Build-quakespasm\x86\Debug\keys.obj"
+         "Build-quakespasm\x86\Debug\main_sdl.obj"
+         "Build-quakespasm\x86\Debug\mathlib.obj"
+         "Build-quakespasm\x86\Debug\menu.obj"
+         "Build-quakespasm\x86\Debug\miniz.obj"
+         "Build-quakespasm\x86\Debug\net_dgrm.obj"
+         "Build-quakespasm\x86\Debug\net_loop.obj"
+         "Build-quakespasm\x86\Debug\net_main.obj"
+         "Build-quakespasm\x86\Debug\net_win.obj"
+         "Build-quakespasm\x86\Debug\net_wins.obj"
+         "Build-quakespasm\x86\Debug\net_wipx.obj"
+         "Build-quakespasm\x86\Debug\pl_win.obj"
+         "Build-quakespasm\x86\Debug\pr_cmds.obj"
+         "Build-quakespasm\x86\Debug\pr_edict.obj"
+         "Build-quakespasm\x86\Debug\pr_exec.obj"
+         "Build-quakespasm\x86\Debug\r_alias.obj"
+         "Build-quakespasm\x86\Debug\r_brush.obj"
+         "Build-quakespasm\x86\Debug\r_part.obj"
+         "Build-quakespasm\x86\Debug\r_sprite.obj"
+         "Build-quakespasm\x86\Debug\r_world.obj"
+         "Build-quakespasm\x86\Debug\sbar.obj"
+         "Build-quakespasm\x86\Debug\snd_codec.obj"
+         "Build-quakespasm\x86\Debug\snd_dma.obj"
+         "Build-quakespasm\x86\Debug\snd_flac.obj"
+         "Build-quakespasm\x86\Debug\snd_mem.obj"
+         "Build-quakespasm\x86\Debug\snd_mikmod.obj"
+         "Build-quakespasm\x86\Debug\snd_mix.obj"
+         "Build-quakespasm\x86\Debug\snd_modplug.obj"
+         "Build-quakespasm\x86\Debug\snd_mp3.obj"
+         "Build-quakespasm\x86\Debug\snd_mp3tag.obj"
+         "Build-quakespasm\x86\Debug\snd_opus.obj"
+         "Build-quakespasm\x86\Debug\snd_sdl.obj"
+         "Build-quakespasm\x86\Debug\snd_umx.obj"
+         "Build-quakespasm\x86\Debug\snd_vorbis.obj"
+         "Build-quakespasm\x86\Debug\snd_wave.obj"
+         "Build-quakespasm\x86\Debug\snd_xmp.obj"
+         "Build-quakespasm\x86\Debug\strlcat.obj"
+         "Build-quakespasm\x86\Debug\strlcpy.obj"
+         "Build-quakespasm\x86\Debug\sv_main.obj"
+         "Build-quakespasm\x86\Debug\sv_move.obj"
+         "Build-quakespasm\x86\Debug\sv_phys.obj"
+         "Build-quakespasm\x86\Debug\sv_user.obj"
+         "Build-quakespasm\x86\Debug\sys_sdl_win.obj"
+         "Build-quakespasm\x86\Debug\view.obj"
+         "Build-quakespasm\x86\Debug\wad.obj"
+         "Build-quakespasm\x86\Debug\world.obj"
+         "Build-quakespasm\x86\Debug\zone.obj"
+         "Build-quakespasm\x86\Debug\SDL_win32_main.obj"
+       Manifest:
+         Deleting file "Build-quakespasm\x86\Debug\quakespasm.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Build-quakespasm\x86\Debug\quakespasm.exe.embed.manifest" /manifest "Build-quakespasm\x86\Debug\quakespasm.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Build-quakespasm\x86\Debug\quakespasm.exe.embed.manifest.res" Build-quakespasm\x86\Debug\quakespasm_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\BA-Quake\Windows\VisualStudio\Build-quakespasm\x86\Debug\quakespasm.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\codecs\x86 /LIBPATH:..\SDL\lib libvorbisfile.lib libvorbis.lib libopusfile.lib libopus.lib libFLAC.lib libogg.lib libmad.lib libxmp.lib wsock32.lib opengl32.lib winmm.lib SDL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:msvcrt.lib /MANIFEST /ManifestFile:"Build-quakespasm\x86\Debug\quakespasm.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\GitHub\BA-Quake\Windows\VisualStudio\Build-quakespasm\x86\Debug\quakespasm.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\BA-Quake\Windows\VisualStudio\Build-quakespasm\x86\Debug\quakespasm.lib" /MACHINE:X86 "Build-quakespasm\x86\Debug\QuakeSpasm.res"
+         "Build-quakespasm\x86\Debug\quakespasm.exe.embed.manifest.res"
+         "Build-quakespasm\x86\Debug\bgmusic.obj"
+         "Build-quakespasm\x86\Debug\cd_sdl.obj"
+         "Build-quakespasm\x86\Debug\cfgfile.obj"
+         "Build-quakespasm\x86\Debug\chase.obj"
+         "Build-quakespasm\x86\Debug\cl_demo.obj"
+         "Build-quakespasm\x86\Debug\cl_input.obj"
+         "Build-quakespasm\x86\Debug\cl_main.obj"
+         "Build-quakespasm\x86\Debug\cl_parse.obj"
+         "Build-quakespasm\x86\Debug\cl_tent.obj"
+         "Build-quakespasm\x86\Debug\cmd.obj"
+         "Build-quakespasm\x86\Debug\common.obj"
+         "Build-quakespasm\x86\Debug\console.obj"
+         "Build-quakespasm\x86\Debug\crc.obj"
+         "Build-quakespasm\x86\Debug\cvar.obj"
+         "Build-quakespasm\x86\Debug\gl_draw.obj"
+         "Build-quakespasm\x86\Debug\gl_fog.obj"
+         "Build-quakespasm\x86\Debug\gl_mesh.obj"
+         "Build-quakespasm\x86\Debug\gl_model.obj"
+         "Build-quakespasm\x86\Debug\gl_refrag.obj"
+         "Build-quakespasm\x86\Debug\gl_rlight.obj"
+         "Build-quakespasm\x86\Debug\gl_rmain.obj"
+         "Build-quakespasm\x86\Debug\gl_rmisc.obj"
+         "Build-quakespasm\x86\Debug\gl_screen.obj"
+         "Build-quakespasm\x86\Debug\gl_sky.obj"
+         "Build-quakespasm\x86\Debug\gl_texmgr.obj"
+         "Build-quakespasm\x86\Debug\gl_vidsdl.obj"
+         "Build-quakespasm\x86\Debug\gl_warp.obj"
+         "Build-quakespasm\x86\Debug\host.obj"
+         "Build-quakespasm\x86\Debug\host_cmd.obj"
+         "Build-quakespasm\x86\Debug\image.obj"
+         "Build-quakespasm\x86\Debug\in_sdl.obj"
+         "Build-quakespasm\x86\Debug\keys.obj"
+         "Build-quakespasm\x86\Debug\main_sdl.obj"
+         "Build-quakespasm\x86\Debug\mathlib.obj"
+         "Build-quakespasm\x86\Debug\menu.obj"
+         "Build-quakespasm\x86\Debug\miniz.obj"
+         "Build-quakespasm\x86\Debug\net_dgrm.obj"
+         "Build-quakespasm\x86\Debug\net_loop.obj"
+         "Build-quakespasm\x86\Debug\net_main.obj"
+         "Build-quakespasm\x86\Debug\net_win.obj"
+         "Build-quakespasm\x86\Debug\net_wins.obj"
+         "Build-quakespasm\x86\Debug\net_wipx.obj"
+         "Build-quakespasm\x86\Debug\pl_win.obj"
+         "Build-quakespasm\x86\Debug\pr_cmds.obj"
+         "Build-quakespasm\x86\Debug\pr_edict.obj"
+         "Build-quakespasm\x86\Debug\pr_exec.obj"
+         "Build-quakespasm\x86\Debug\r_alias.obj"
+         "Build-quakespasm\x86\Debug\r_brush.obj"
+         "Build-quakespasm\x86\Debug\r_part.obj"
+         "Build-quakespasm\x86\Debug\r_sprite.obj"
+         "Build-quakespasm\x86\Debug\r_world.obj"
+         "Build-quakespasm\x86\Debug\sbar.obj"
+         "Build-quakespasm\x86\Debug\snd_codec.obj"
+         "Build-quakespasm\x86\Debug\snd_dma.obj"
+         "Build-quakespasm\x86\Debug\snd_flac.obj"
+         "Build-quakespasm\x86\Debug\snd_mem.obj"
+         "Build-quakespasm\x86\Debug\snd_mikmod.obj"
+         "Build-quakespasm\x86\Debug\snd_mix.obj"
+         "Build-quakespasm\x86\Debug\snd_modplug.obj"
+         "Build-quakespasm\x86\Debug\snd_mp3.obj"
+         "Build-quakespasm\x86\Debug\snd_mp3tag.obj"
+         "Build-quakespasm\x86\Debug\snd_opus.obj"
+         "Build-quakespasm\x86\Debug\snd_sdl.obj"
+         "Build-quakespasm\x86\Debug\snd_umx.obj"
+         "Build-quakespasm\x86\Debug\snd_vorbis.obj"
+         "Build-quakespasm\x86\Debug\snd_wave.obj"
+         "Build-quakespasm\x86\Debug\snd_xmp.obj"
+         "Build-quakespasm\x86\Debug\strlcat.obj"
+         "Build-quakespasm\x86\Debug\strlcpy.obj"
+         "Build-quakespasm\x86\Debug\sv_main.obj"
+         "Build-quakespasm\x86\Debug\sv_move.obj"
+         "Build-quakespasm\x86\Debug\sv_phys.obj"
+         "Build-quakespasm\x86\Debug\sv_user.obj"
+         "Build-quakespasm\x86\Debug\sys_sdl_win.obj"
+         "Build-quakespasm\x86\Debug\view.obj"
+         "Build-quakespasm\x86\Debug\wad.obj"
+         "Build-quakespasm\x86\Debug\world.obj"
+         "Build-quakespasm\x86\Debug\zone.obj"
+         "Build-quakespasm\x86\Debug\SDL_win32_main.obj"
+         quakespasm.vcxproj -> D:\GitHub\BA-Quake\Windows\VisualStudio\Build-quakespasm\x86\Debug\quakespasm.exe
+       PostBuildEvent:
+         copy "D:\GitHub\BA-Quake\Windows\VisualStudio\\..\codecs\x86\*.dll" "D:\GitHub\BA-Quake\Windows\VisualStudio\Build-quakespasm\x86\Debug\"
+         copy "D:\GitHub\BA-Quake\Windows\VisualStudio\\..\SDL\lib\*.dll" "D:\GitHub\BA-Quake\Windows\VisualStudio\Build-quakespasm\x86\Debug\"
+         copy "D:\GitHub\BA-Quake\Windows\VisualStudio\Build-quakespasm\x86\Debug\\quakespasm.exe" "D:\GitHub\BA-Quake\Windows\VisualStudio\\..\..\FQBuild\"
+         :VCEnd
+         D:\GitHub\BA-Quake\Windows\VisualStudio\\..\codecs\x86\libFLAC-8.dll
+         D:\GitHub\BA-Quake\Windows\VisualStudio\\..\codecs\x86\libmad-0.dll
+         D:\GitHub\BA-Quake\Windows\VisualStudio\\..\codecs\x86\libmikmod-3.dll
+         D:\GitHub\BA-Quake\Windows\VisualStudio\\..\codecs\x86\libmpg123-0.dll
+         D:\GitHub\BA-Quake\Windows\VisualStudio\\..\codecs\x86\libogg-0.dll
+         D:\GitHub\BA-Quake\Windows\VisualStudio\\..\codecs\x86\libopus-0.dll
+         D:\GitHub\BA-Quake\Windows\VisualStudio\\..\codecs\x86\libopusfile-0.dll
+         D:\GitHub\BA-Quake\Windows\VisualStudio\\..\codecs\x86\libvorbis-0.dll
+         D:\GitHub\BA-Quake\Windows\VisualStudio\\..\codecs\x86\libvorbisfile-3.dll
+         D:\GitHub\BA-Quake\Windows\VisualStudio\\..\codecs\x86\libxmp.dll
+                10 fichier(s) copié(s).
+         D:\GitHub\BA-Quake\Windows\VisualStudio\\..\SDL\lib\SDL.dll
+                 1 fichier(s) copié(s).
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file "Build-quakespasm\x86\Debug\quakespasm.unsuccessfulbuild".
+         Touching "Build-quakespasm\x86\Debug\quakespasm.lastbuildstate".
+     1>Done Building Project "D:\GitHub\BA-Quake\Windows\VisualStudio\quakespasm.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:24.53
